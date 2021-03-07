@@ -5,7 +5,7 @@ var bgcolor = (100, 100, 100);
 function setup() {
   // createCanvas(600, 600)
   // .position(500, 100);
-  let cnv = createCanvas(windowWidth/3, windowHeight/1.15);
+  let cnv = createCanvas(windowWidth/2.5, windowHeight/1.15);
   // .position(400, 25);
   cnv.id('canvas_three_one')
   cnv.parent('three_one');
@@ -112,7 +112,7 @@ function Rain(x, y) {
   }
 }
 function windowResized() {
-  resizeCanvas(windowWidth/3, windowHeight/1.15);
+  resizeCanvas(windowWidth/2.5, windowHeight/1.15);
 }
 
   

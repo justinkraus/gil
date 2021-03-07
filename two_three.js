@@ -4,7 +4,7 @@ function preload() {
 }
 function setup() {
   // createCanvas(400, 400);
-   let cnv = createCanvas(windowWidth, windowHeight);
+   let cnv = createCanvas(windowWidth/1.5, windowHeight/1.1);
 
   cnv.id('canvas_two_three')
   cnv.parent('two_three');
@@ -21,4 +21,8 @@ function draw() {
 
 function mousePressed() {
   shuffle(seaRoseLines, true);
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth/1.5, windowHeight/1.1);
 }
