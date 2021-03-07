@@ -29,7 +29,7 @@ God bless you mama – and thank you';
 
 var words = sourceText.split(" ");
 function setup() {
-    let cnv = createCanvas(windowWidth, windowHeight);
+    let cnv = createCanvas(windowWidth/1.5, windowHeight/1.1);
 
   // .position(400, 25);
   cnv.id('canvas_two_two')
@@ -38,7 +38,7 @@ function setup() {
   noLoop();
 }
 function draw() {
-  background(18);
+  // background(18);
   textSize(20);
   textAlign(CENTER, CENTER);
   for (var i = 0; i < words.length; i++) {
@@ -48,5 +48,5 @@ function draw() {
 }
 
 function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
+  resizeCanvas(windowWidth/1.5, windowHeight/1.1);
 }

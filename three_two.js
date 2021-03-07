@@ -1,6 +1,6 @@
 function setup() {
   // let cnv = createCanvas(1000, 1000)
-  let cnv = createCanvas(windowWidth, windowHeight);
+  let cnv = createCanvas(windowWidth/1.5, windowHeight/1.1);
 
   // .position(400, 25);
   cnv.id('canvas_three_two')
@@ -37,5 +37,5 @@ function draw(){
 }
 
 function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
+  resizeCanvas(windowWidth/1.5, windowHeight/1.1);
 }
