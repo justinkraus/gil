@@ -6,21 +6,21 @@ var maxHist;
 
 function setup() {
   // createCanvas(displayWidth, displayHeight
-  let cnv = createCanvas(windowWidth/2, windowHeight);
+  let cnv = createCanvas(windowWidth/1.5, windowHeight/1.05);
   // .position(400, 25);
   cnv.id('canvas_three_three')
   cnv.parent('three_three');
   for (var i = 0; i < inital; i++) {
     painters.push(new Liner());
   }
-  background(0);
+  // background(0);
   frameRate(30);
   //dSlider = createSlider(0, 400, 400);
   //dSlider.position(20, 20);
 }
 
 function draw() {
-  background(20);
+  background(18);
   for (var i = painters.length - 1; i >= 0; i--) {
   //for (var i = 0; i < painters.length; i++) {
     	if (painters[i].opacity > 0){
@@ -47,5 +47,5 @@ function keyPressed() {
 }
 
 function windowResized() {
-  resizeCanvas(windowWidth/2, windowHeight);
+  resizeCanvas(windowWidth/1.5, windowHeight/1.05);
 }

@@ -229,9 +229,10 @@ canvas {
 /*  	width: 50%;*/
 /*  	height: 75%;*/
 /*    left: 45%;*/
-	max-height:100vh;
-	max-width:50vw;
+	/*max-height:100vh;
+	max-width:50vw;*/
 /*	max-height:80vh;*/
+	height:90%;
     opacity: 0.4;
 }
 
