@@ -206,6 +206,7 @@ canvas {
 		/*flex-direction: column;*/
 		color:white;
 		font-size:12px;
+		margin:0px;
 /*		width:50%;
 		height:50%;
 		margin:0;*/
@@ -222,7 +223,7 @@ canvas {
 /*    justify-content: right;*/
     float: right;
 /*    height:90%;*/
-	width:69vw;
+	width:66vw;
 /*	max-width:70vw;*/
 /*    left: 42%;*/
 /*    max-height:90%*/
