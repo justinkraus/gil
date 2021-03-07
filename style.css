@@ -1,0 +1,453 @@
+body{
+	margin: 2em 2em;
+	text-align: center;
+	font-family: helvetica;
+	background-color:#121212;
+}
+.row {
+	display: flex;
+}
+
+.column1 {
+	flex: 20%;
+	display: flex;
+	justify-content: right;
+	text-align: right;
+	flex-direction: column;
+	margin:0px 100px;
+}
+.column2 {
+	flex: 80%;
+}
+ul{
+	list-style-type: none;
+	/*justify-content: left;*/
+/*	display: flex;
+	flex-direction: column;*/
+}
+li{
+	list-style-type: none;
+}
+#gilTitle{
+	display: flex;
+		justify-content: center;
+		text-align: left;
+		flex-direction: column;
+		font-size: x-large;
+		letter-spacing: -0.07em;
+		font-weight: bold;
+}
+h2{
+	color:white;
+}
+p{
+	margin:0px;
+/*	font-size:14px;
+	color:white;*/
+}
+/*one*/
+/*one one*/
+#one_one{
+	display: flex;
+	justify-content: left;
+	text-align: left;
+	flex-direction: column;
+	color:white;
+	font-size:20px;
+}
+
+/*one two*/
+#one_two{
+	display: flex;
+	justify-content: left;
+	text-align: left;
+	flex-direction: column;
+	color:white;
+	font-size:20px;
+}
+
+/*one three*/
+#one_three{
+	display: flex;
+	justify-content: left;
+	text-align: left;
+	flex-direction: column;
+	color:white;
+/*	font-size:20px;*/
+}
+
+#one_three p:hover{ 
+	font-size:35px;
+/*	-webkit-transform: scale(10);*/ 
+	display: flex;
+	justify-content: left;
+	text-align: left;
+	flex-direction: column;
+	color:white;
+}
+
+/*two
+two one*/
+#two_one{
+	display: flex;
+	justify-content: left;
+	text-align: left;
+	flex-direction: column;
+	color:white;
+	font-size:20px;
+}
+
+#canvas_two_one{
+	position:absolute;
+	display: block;
+  justify-content:left;
+  align-items:left;
+}
+
+/*two two*/
+#two_two{
+	display: flex;
+	justify-content: left;
+	text-align: left;
+	flex-direction: column;
+	color:white;
+	font-size:20px;
+}
+
+#canvas_two_two{
+	position:absolute;
+	display: block;
+  justify-content:left;
+  align-items:left;
+}
+
+/*two three*/
+#two_three{
+	display: flex;
+	justify-content: left;
+	text-align: left;
+	flex-direction: column;
+	color:white;
+	font-size:20px;
+}
+
+#canvas_two_three{
+	position:absolute;
+	display: block;
+  justify-content:left;
+  align-items:left;
+  opacity:.9;
+}
+
+/*three*/
+/*three one*/
+canvas {
+  display: block;
+}
+/*three two*/
+#three_two{
+	display: flex;
+	justify-content: left;
+	text-align: left;
+	flex-direction: column;
+	color:white;
+	font-size:20px;
+}
+
+#canvas_three_two{
+	position:absolute;
+	display: block;
+  justify-content:left;
+  align-items:left;
+}
+
+/*three three*/
+#three_three{
+	display: flex;
+	justify-content: left;
+	text-align: left;
+	flex-direction: column;
+	color:white;
+	font-size:20px;
+}
+
+#canvas_three_three{
+	position:absolute;
+	display: block;
+  justify-content:left;
+  align-items:left;
+  opacity:.5;
+}
+
+/*four*/
+/*four one*/
+#four_one{
+		display: flex;
+/*		justify-content: center;*/
+		text-align: right;
+		flex-direction: column;
+		color:white;
+		font-size:18px;
+/*		padding-right: 200px;*/
+/*		margin: 0em 1em ;	*/
+}
+
+#four_one img {
+    position: absolute;
+/*    display: block;*/
+/*    margin-left: auto;
+    margin-right: auto;*/
+/*    justify-content: right;*/
+    float: right;
+/*    left: 42%;*/
+    height:90%;
+    opacity: 0.5;
+/*    margin: 0em 4em ;*/
+}
+
+/*four two*/
+#four_two{
+	display: flex;
+	justify-content: left;
+	text-align: left;
+	flex-direction: column;
+	color:white;
+	font-size:20px;
+}
+
+#four_two img {
+    position: absolute;
+    display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+/*  	width: 50%;*/
+/*  	height: 80%;
+    left: 45%;*/
+    opacity: 0.4;
+}
+
+/*four three*/
+#four_three{
+	display: flex;
+	justify-content: left;
+	text-align: center;
+	flex-direction: column;
+	color:white;
+	font-size:20px;
+}
+
+#four_three img {
+    position: absolute;
+    display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+/*  	height:80%;*/
+/*  	width: 50%;*/
+/*  	height: 80%;
+    left: 45%;*/
+    opacity: 1;
+}
+
+/*five one*/
+/*https://stackoverflow.com/questions/8294400/css-animations-with-delay-for-each-child-element*/
+
+#five_one {
+	margin:2em 0em;
+	text-align: left;	
+  color:white;
+/*  visibility: hidden;*/
+/*  opacity: 0;*/
+/*  transition: visibility 0s 2s, opacity 2s linear;*/
+/*  animation: type 4s steps(60, end);*/
+}
+
+@keyframes FadeIn { 
+  0% {
+    opacity: 0;
+	}
+
+  85% {
+    opacity: 1;
+/*    transform: scale(1.05);*/
+  }
+  100% {
+/*    transform: scale(1);*/
+  }
+}
+
+.myClass p {
+/*  float: left;*/
+/*  margin: 20px;*/
+  animation: FadeIn 2s linear;
+  animation-fill-mode: both;
+ /* text-align: left;*/
+}
+
+.myClass p:nth-child(1) { animation-delay: .5s }
+.myClass p:nth-child(2) { animation-delay: 2s }
+.myClass p:nth-child(3) { animation-delay: 3.25s }
+.myClass p:nth-child(4) { animation-delay: 4.75s }
+.myClass p:nth-child(5) { animation-delay: 6.25s }
+.myClass p:nth-child(6) { animation-delay: 8s }
+.myClass p:nth-child(7) { animation-delay: 9.75s }
+.myClass p:nth-child(8) { animation-delay: 11s }
+.myClass p:nth-child(9) { animation-delay: 12.75s }
+.myClass p:nth-child(10) { animation-delay: 14s }
+.myClass p:nth-child(11) { animation-delay: 15.75s }
+.myClass p:nth-child(12) { animation-delay: 17s }
+.myClass p:nth-child(13) { animation-delay: 18.75s }
+.myClass p:nth-child(14) { animation-delay: 20.5s }
+.myClass p:nth-child(15) { animation-delay: 22.25s }
+.myClass p:nth-child(16) { animation-delay: 24s }
+.myClass p:nth-child(17) { animation-delay: 25.75s }
+.myClass p:nth-child(18) { animation-delay: 27.5s }
+.myClass p:nth-child(19) { animation-delay: 29.5s }
+.myClass p:nth-child(20) { animation-delay: 31s }
+.myClass p:nth-child(21) { animation-delay: 33.75s }
+.myClass p:nth-child(22) { animation-delay: 35.5s }
+.myClass p:nth-child(23) { animation-delay: 37.25s }
+.myClass p:nth-child(24) { animation-delay: 39s }
+.myClass p:nth-child(25) { animation-delay: 40.25s }
+.myClass p:nth-child(26) { animation-delay: 43s }
+.myClass p:nth-child(27) { animation-delay: 45.75s }
+.myClass p:nth-child(28) { animation-delay: 47.5s }
+.myClass p:nth-child(29) { animation-delay: 50s }
+.myClass p:nth-child(30) { animation-delay: 52s }
+.myClass p:nth-child(31) { animation-delay: 54s }
+
+/*five two*/
+#five_two {
+	margin:2em 0em;
+	text-align: left;	
+  color:white;
+}
+
+@keyframes FadeSide { 
+  0% {
+    opacity: 0;
+/*    -webkit-transform: translateX(50px);*/
+    transform: scale(.75);
+}
+
+  10% {
+    opacity: 1;
+/*    -webkit-transform: translateX(0);*/
+    transform: scale(1.05);
+  }
+    66% {
+    opacity: .5;
+/*    -webkit-transform: translateX(0);*/
+    transform: scale(1);
+  }
+  100% {
+  	opacity: 0;
+/*  	-webkit-transform: translateX(-50px);*/
+    transform: scale(.9);
+  }
+}
+
+.myClass2 p {
+/*  float: left;*/
+/*  margin: 20px;*/
+  animation: FadeSide 10s linear;
+  -webkit-transition: transform 3s ease-in-out;
+  animation-fill-mode: both;
+ /* text-align: left;*/
+}
+
+.myClass2 p:nth-child(1) { animation-delay: .5s }
+.myClass2 p:nth-child(2) { animation-delay: 3s }
+.myClass2 p:nth-child(3) { animation-delay: 5.5s }
+.myClass2 p:nth-child(4) { animation-delay: 7.5s }
+.myClass2 p:nth-child(5) { animation-delay: 9.5s }
+.myClass2 p:nth-child(6) { animation-delay: 11.5s }
+.myClass2 p:nth-child(7) { animation-delay: 14.5s }
+.myClass2 p:nth-child(8) { animation-delay: 16.5s }
+.myClass2 p:nth-child(9) { animation-delay: 18.5s }
+.myClass2 p:nth-child(10) { animation-delay: 20.5s }
+.myClass2 p:nth-child(11) { animation-delay: 22.5s }
+.myClass2 p:nth-child(12) { animation-delay: 23.5s }
+.myClass2 p:nth-child(13) { animation-delay: 25.5s }
+.myClass2 p:nth-child(14) { animation-delay: 27.5s }
+.myClass2 p:nth-child(15) { animation-delay: 29.5s }
+.myClass2 p:nth-child(16) { animation-delay: 31.5s }
+.myClass2 p:nth-child(17) { animation-delay: 33.5s }
+.myClass2 p:nth-child(18) { animation-delay: 35.5s }
+.myClass2 p:nth-child(19) { animation-delay: 37.5s }
+.myClass2 p:nth-child(20) { animation-delay: 39.5s }
+.myClass2 p:nth-child(21) { animation-delay: 42.25s }
+.myClass2 p:nth-child(22) { animation-delay: 44.25s }
+.myClass2 p:nth-child(23) { animation-delay: 46.5s }
+.myClass2 p:nth-child(24) { animation-delay: 48.5s }
+.myClass2 p:nth-child(25) { animation-delay: 51s }
+.myClass2 p:nth-child(26) { animation-delay: 53s }
+.myClass2 p:nth-child(27) { animation-delay: 55s }
+.myClass2 p:nth-child(28) { animation-delay: 57s }
+.myClass2 p:nth-child(29) { animation-delay: 60s }
+.myClass2 p:nth-child(30) { animation-delay: 62s }
+.myClass2 p:nth-child(31) { animation-delay: 64s }
+
+
+/*five three*/
+
+#five_three {
+	margin:2em 0em;
+	text-align: left;	
+  color:white;
+}
+
+@keyframes FadeOut { 
+  0% {
+    opacity: 1;
+/*    transform: scale(.1);*/
+  }
+
+  85% {
+    opacity: 1;
+/*    transform: scale(1.05);*/
+  }
+  100% {
+  	opacity: 0;
+/*    transform: scale(1);*/
+  }
+}
+
+.myClass3 p {
+/*  float: left;*/
+/*  margin: 20px;*/
+  animation: FadeOut 3s linear;
+  animation-fill-mode: both;
+ /* text-align: left;*/
+}
+
+.myClass3 p:nth-child(1) { animation-delay: .5s }
+.myClass3 p:nth-child(2) { animation-delay: 2s }
+.myClass3 p:nth-child(3) { animation-delay: 3.25s }
+.myClass3 p:nth-child(4) { animation-delay: 4.75s }
+.myClass3 p:nth-child(5) { animation-delay: 6.25s }
+.myClass3 p:nth-child(6) { animation-delay: 8s }
+.myClass3 p:nth-child(7) { animation-delay: 9.75s }
+.myClass3 p:nth-child(8) { animation-delay: 11s }
+.myClass3 p:nth-child(9) { animation-delay: 12.75s }
+.myClass3 p:nth-child(10) { animation-delay: 14s }
+.myClass3 p:nth-child(11) { animation-delay: 15.75s }
+.myClass3 p:nth-child(12) { animation-delay: 17s }
+.myClass3 p:nth-child(13) { animation-delay: 18.75s }
+.myClass3 p:nth-child(14) { animation-delay: 20.5s }
+.myClass3 p:nth-child(15) { animation-delay: 22.25s }
+.myClass3 p:nth-child(16) { animation-delay: 24s }
+.myClass3 p:nth-child(17) { animation-delay: 25.75s }
+.myClass3 p:nth-child(18) { animation-delay: 27.5s }
+.myClass3 p:nth-child(19) { animation-delay: 29.5s }
+.myClass3 p:nth-child(20) { animation-delay: 31s }
+.myClass3 p:nth-child(21) { animation-delay: 33.75s }
+.myClass3 p:nth-child(22) { animation-delay: 35.5s }
+.myClass3 p:nth-child(23) { animation-delay: 37.25s }
+.myClass3 p:nth-child(24) { animation-delay: 39s }
+.myClass3 p:nth-child(25) { animation-delay: 40.25s }
+.myClass3 p:nth-child(26) { animation-delay: 43s }
+.myClass3 p:nth-child(27) { animation-delay: 45.75s }
+.myClass3 p:nth-child(28) { animation-delay: 47.5s }
+.myClass3 p:nth-child(29) { animation-delay: 50s }
+.myClass3 p:nth-child(30) { animation-delay: 52s }
+.myClass3 p:nth-child(31) { animation-delay: 54s }
