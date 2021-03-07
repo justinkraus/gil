@@ -37,11 +37,14 @@ li{
 		letter-spacing: -0.07em;
 		font-weight: bold;
 }
-h2{
+h2, h3{
 	color:white;
-}
-p{
 	margin:0px;
+}
+
+p{
+	margin-bottom:0px;
+	margin-top:auto;
 /*	font-size:14px;
 	color:white;*/
 }
