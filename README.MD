@@ -4,8 +4,8 @@ Various formatting takes on the lyrics to Gil Scott-Heron's [On Coming From a Br
 
 ## WORD
 Focusing on individual words
-### Unnecessary
-Adding quotes to the last word in each sentence
+> ### Unnecessary
+>> Adding quotes to the last word in each sentence
 ### Sentiment
 I put this through a sentiment analyzer. Interesting how a poem that utilizes primarily negative language can portray hope
 ### Count
