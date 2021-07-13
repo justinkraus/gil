@@ -4,12 +4,12 @@ Various formatting takes on the lyrics to Gil Scott-Heron's [On Coming From a Br
 
 ## WORD
 Focusing on individual words
-&ensp; ### Unnecessary
-&ensp;&ensp; Adding quotes to the last word in each sentence
-&ensp; ### Sentiment
-&ensp;&ensp; I put this through a sentiment analyzer. Interesting how a poem that utilizes primarily negative language can portray hope
-&ensp; ### Count
-&ensp;&ensp; Words Rearranged by the number of times they appear. Font size also multipled by number of times the word appears
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Unnecessary
+>>> Adding quotes to the last word in each sentence
+>> ### Sentiment
+>>> I put this through a sentiment analyzer. Interesting how a poem that utilizes primarily negative language can portray hope
+>> ### Count
+>>> Words Rearranged by the number of times they appear. Font size also multipled by number of times the word appears
 
 ## SPACE
 Changing how words fill-up the page
