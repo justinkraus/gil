@@ -13,36 +13,36 @@ Focusing on individual words
 
 ## SPACE
 Changing how words fill-up the page
-### Brutal
-Horizontal mouse position makes half the pargraphs larger, the other half smaller
-### Random
-Page refresh shuffles the words randomly on the screen
-### Shuffle
-Clicking the page shuffles each line in a random order
+>> ### Brutal
+>>> Horizontal mouse position makes half the pargraphs larger, the other half smaller
+>> ### Random
+>>> Page refresh shuffles the words randomly on the screen
+>> ### Shuffle
+>>> Clicking the page shuffles each line in a random order
 
 ## ELEMENT
 Using p5.js to incoporate nature elements
-### Water
-Neverending rain
-### Earth
-Over time, earth will overwrite all human existence
-### Fire
-Digital smoke
+>> ### Water
+>>> Neverending rain
+>> ### Earth
+>>> Over time, earth will overwrite all human existence
+>> ### Fire
+>>> Digital smoke
 
 ## IMAGE
 Overlaying text on an image
-### Cinematic
-A pensive cinemagraph
-### Self
-The album cover
-### tumblr
-As a tumblr post
+>> ### Cinematic
+>>> A pensive cinemagraph
+>> ### Self
+>>> The album cover
+>> ### tumblr
+>>> As a tumblr post
 
 ## Time
 Pacing the display of text
-### Speech
-Fading onto the screen
-### Corporate
-Fading in and then out with dramatic effect
-### Fade
-Each line fades away
+>> ### Speech
+>>> Fading onto the screen
+>> ### Corporate
+>>> Fading in and then out with dramatic effect
+>> ### Fade
+>>> Each line fades away
