@@ -1,6 +1,6 @@
 
-#  - Digital Remix
-Various formatting takes on the lyrics to Gil Scott-Heron's [On Coming From a Broken Home (pt.2)](https://www.youtube.com/watch?v=-tliVge1PIE) to see how it impacts interpretation.
+#  Digital Remix
+Various formatting takes on the lyrics to Gil Scott-Heron's [On Coming From a Broken Home (pt.2)](https://www.youtube.com/watch?v=-tliVge1PIE) to see how it impacts interpretation. All made with javascript or p5.js.
 
 ## WORD
 Focusing on individual words
